@@ -87,7 +87,6 @@ nav {
     width: 100%;
 }
 
-/* Header with circular floating photo */
 header {
     text-align: center;
     padding: 150px 20px 80px;
@@ -171,7 +170,7 @@ h2::after {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 60px;
+    width: 1000px;
     height: 4px;
     background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
     border-radius: 2px;
@@ -183,7 +182,6 @@ h3 {
     font-size: 1.5rem;
 }
 
-/* Contact section */
 .contact-info {
     display: flex;
     flex-direction: column;
@@ -208,7 +206,6 @@ h3 {
     color: var(--accent-1);
 }
 
-/* Links */
 a {
     color: var(--accent-3);
     text-decoration: none;
@@ -220,7 +217,6 @@ a:hover {
     text-shadow: 0 0 8px rgba(0, 245, 255, 0.7);
 }
 
-/* Lists */
 ul {
     list-style: none;
     padding-left: 20px;
@@ -233,13 +229,12 @@ li {
 }
 
 li::before {
-    content: "▹";
+    content: "➥";
     color: var(--accent-1);
     position: absolute;
     left: 0;
 }
 
-/* Skills */
 .skills-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -281,7 +276,7 @@ li::before {
     transform: scale(1.05);
 }
 
-/* Projects */
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -331,7 +326,7 @@ li::before {
     line-height: 1.6;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 30px;
@@ -365,7 +360,7 @@ footer {
     transform: translateY(-5px);
 }
 
-/* Animations */
+
 @keyframes floating {
 
     0%,
@@ -392,7 +387,7 @@ footer {
     }
 }
 
-/* Responsive design */
+
 @media (max-width: 768px) {
     .nav-container {
         flex-direction: column;
